@@ -9,7 +9,9 @@
     "authors": [
         {
             "name": "Bruno Souza",
-            "email": "241103@gmail.com"
+            "email": "241103@gmail.com",
+            "homepage": "http://brunosouza.info",
+            "role": "developer"
         }
     ],
     "require": {
