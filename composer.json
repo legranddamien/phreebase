@@ -1,0 +1,23 @@
+{
+    "name": "brunomvsouza/phreebase",
+    "type": "library",
+    "description": "A simple but thorough PHP client for working with Freebase API",
+    "keywords": ["freebase", "client", "php"],
+    "homepage": "https://github.com/brunomvsouza/phreebase",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Bruno Souza",
+            "email": "241103@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Phreebase" : "src/"
+        }
+    }
+}
