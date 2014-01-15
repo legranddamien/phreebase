@@ -256,7 +256,7 @@ class Phreebase {
         }
 
         if (isset($parameters['limit'])) {
-            $parameters['limit'] = ($parameters['limit']) ? 'true' : false;
+            $parameters['limit'] = (int) $parameters['limit'];
         }
 
         if (isset($parameters['prefixed'])) {
