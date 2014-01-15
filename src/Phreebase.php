@@ -199,8 +199,6 @@ class Phreebase {
             throw new InvalidArgumentsException('For security reasons you can do just external requests');
         }
 
-        echo $url;
-
         $data = @file_get_contents($url);
         if (!$data) {
             $error = error_get_last();
